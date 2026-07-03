@@ -1,2 +1,7 @@
-allowBuilds:
-  esbuild: false
+packages:
+  - "apps/*"
+  - "packages/*"
+  - "servers/*"
+
+onlyBuiltDependencies:
+  - esbuild
